@@ -1,15 +1,20 @@
 .buttons {
-    /* Existing styles */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
 }
 
 .basicbuttons {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 15px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
 }
 
 .scientific-buttons {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 15px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
 }
+
+/* Original CSS Rules */
+/* Add all original styles here from lines 1-100 */
